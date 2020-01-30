@@ -4,5 +4,5 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install(version = "3.8")
 
 
-packages_to_install = c("dplyr", "ggplot2", "openxlsx", "NOISeq")
+packages_to_install = c("dplyr", "ggplot2", "openxlsx", "NOISeq","rtracklayer","gplots")
 BiocManager::install(packages_to_install)
