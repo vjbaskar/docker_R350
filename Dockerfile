@@ -19,5 +19,5 @@ RUN make -j 4
 RUN make install
 WORKDIR /work
 COPY src/install.R /run/install.R
-#RUN Rscript install.R
+RUN Rscript /run/install.R
 ENTRYPOINT ["Rscript"]
